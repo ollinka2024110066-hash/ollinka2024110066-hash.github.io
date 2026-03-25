@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CUERPO GENERAL */
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    padding: 30px;
+    color: #222;
+}
+
+/* ENCABEZADO */
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 35px;
+    background-color: rgb(142, 141, 141);
+}
+
+/* INFO DEL ENCABEZADO */
+.info {
+    max-width: 70%;
+}
+
+.info h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.info p {
+    margin-top: 6px;
+}
+
+/* FOTO */
+.encabezado img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.hoja {
+    display: flex;
+    align-items: stretch; 
+    margin-top: 25px;
+    gap: 12px;
+}
+
+/* COLUMNA IZQUIERDA */
+.col-izq {
+    width: 78%;
+    background-color: #ffffff;
+    padding: 25px 35px;
+    text-align: justify;
+}
+
+/* COLUMNA DERECHA */
+.col-der {
+    width: 22%;
+    background-color: rgb(142, 141, 141);
+    padding: 25px 20px;
+    text-align: justify;
+}
+
+.col-der h2 {
+    margin-bottom: 12px;
+}
+
+.col-der p,
+.col-der li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.col-der {
+    border-radius: 6px;
+}
